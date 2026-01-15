@@ -136,7 +136,15 @@ namespace guofengzhuangbei
             // --- 装备 30: guofengbeib1.1 ---
             RegisterText("guofengbeib1.1", "国风·高级战术背包");
             RegisterText("guofengbeib1.1_Desc", "国风装备系列：在战场中，背包是一种很重要的保障，另一种色彩，另一种风格。");
-                                                                        
+
+            // --- 装备 31: guofengbeib2 ---
+            RegisterText("guofengbeib2", "国风·彩绘葫芦背包");
+            RegisterText("guofengbeib2_Desc", "国风装备系列：有所形，化无所形。");
+
+            // --- 物品 3: guofengrq1 ---
+            RegisterText("guofengrq1", "彩·葫芦器");
+            RegisterText("guofengrq1_Desc", "国风系列：收物，储物。有其形。");
+                                                                                                                                                
             Debug.Log("[guofengzhuangbei] 中文本地化文本已注册 (LocalizationHelper)！");
         }
 
