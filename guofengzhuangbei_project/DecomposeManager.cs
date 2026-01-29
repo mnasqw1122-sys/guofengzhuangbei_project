@@ -143,6 +143,32 @@ namespace guofengzhuangbei
             AddDecomposeRecipe(742112, new List<(int, int)> {
                 (1171, 2),(1170, 4),(743, 5)
             });
+            
+            // 装备ID：742115
+            AddDecomposeRecipe(742115, new List<(int, int)> {
+                (337, 1), (336, 1), (340, 2), (339, 3), 
+                (362, 6), (743, 1), (764, 1), (1171, 1)
+            });
+
+            // 装备ID：742116
+            AddDecomposeRecipe(742116, new List<(int, int)> {
+                (362, 3), (743, 1)
+            });
+
+            // 装备ID：742117
+            AddDecomposeRecipe(742117, new List<(int, int)> {
+                (1170, 2), (743, 3), (1171, 1)
+            });
+
+            // 装备ID：742118
+            AddDecomposeRecipe(742118, new List<(int, int)> {
+                (1170, 3), (362, 4), (1171, 1), (743, 3)
+            });
+
+            // 装备ID：742119
+            AddDecomposeRecipe(742119, new List<(int, int)> {
+                (1170, 2), (743, 3), (1171, 1), (362, 2),
+            });
           }
 
         private static void AddDecomposeRecipe(int itemID, List<(int id, int count)> results, long money = 0)

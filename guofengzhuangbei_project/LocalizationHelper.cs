@@ -144,7 +144,27 @@ namespace guofengzhuangbei
             // --- 物品 3: guofengrq1 ---
             RegisterText("guofengrq1", "彩·葫芦器");
             RegisterText("guofengrq1_Desc", "国风系列：收物，储物。有其形。");
-                                                                                                                                                
+
+            // --- 装备 32: guofengtoukui10 ---
+            RegisterText("guofengtoukui10", "国风·明改造头盔六");
+            RegisterText("guofengtoukui10_Desc", "国风装备系列：进行了不多的时代化改造，对于本来的形体和美学并没有做太多改动。");
+            
+            // --- 装备 33: guofengtoukui11 ---
+            RegisterText("guofengtoukui11", "国风·明头盔三");
+            RegisterText("guofengtoukui11_Desc", "国风装备系列：提供了基本的防护性能，正面有个勇字，战斗中突出一个勇敢。");
+
+            // --- 装备 34: guofengtoukui12 ---
+            RegisterText("guofengtoukui12", "国风·纹饰头盔六");
+            RegisterText("guofengtoukui12_Desc", "国风装备系列：根据鸭星六级头盔改造。");
+
+            // --- 装备 35: guofengtoukui13 ---
+            RegisterText("guofengtoukui13", "国风·战术高级头盔");
+            RegisterText("guofengtoukui13_Desc", "国风装备系列：在防护能力方面，战术和重型是否会有微妙的平衡点。");
+
+            // --- 装备 36: guofengtoukui14 ---
+            RegisterText("guofengtoukui14", "国风·纹饰高级头盔");
+            RegisterText("guofengtoukui14_Desc", "国风装备系列：提供了各种承伤倍率属性，可是并没有风暴防护能力。");
+                                                                                                                                                                        
             Debug.Log("[guofengzhuangbei] 中文本地化文本已注册 (LocalizationHelper)！");
         }
 
